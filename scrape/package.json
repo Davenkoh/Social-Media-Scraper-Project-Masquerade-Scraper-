@@ -1,0 +1,9 @@
+{
+  "name": "masq-tracker-scrape",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CDP-based TikTok stat scraper for the Masquerade tracker (no paid API). Drives a logged-in Chrome over CDP; references Project Ana's scrape approach.",
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  }
+}

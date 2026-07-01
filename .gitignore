@@ -1,0 +1,21 @@
+# ── Secrets — NEVER commit ──────────────────────────────────────────────
+secrets.env
+# service-account key(s) + scrape caches live at repo root; block all root JSON
+/*.json
+*-service-account*.json
+*service_account*.json
+credentials*.json
+*.json.key
+
+# ── Scrape caches (re-fetchable creator data) ───────────────────────────
+cache_*.json
+scrape_cache/
+*.cache
+
+# ── Node / Python / OS ──────────────────────────────────────────────────
+scrape/node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
